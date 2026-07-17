@@ -91,7 +91,7 @@ Please check the availability and send the bill. Thank you!`;
 
       {/* Modal Container */}
       <div className="flex min-h-screen items-center justify-center p-4 text-center sm:p-0">
-        <div className="relative transform overflow-hidden rounded-2xl bg-white dark:bg-slate-900 text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-xl border border-gray-100 dark:border-slate-800 animate-in zoom-in-95 duration-200">
+        <div className="relative transform overflow-hidden rounded-2xl glass-card text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-xl animate-in zoom-in-95 duration-200">
           
           {/* Header Banner */}
           <div className="bg-gradient-to-r from-emerald-600 to-teal-600 px-6 py-4 flex items-center justify-between text-white">
@@ -127,7 +127,7 @@ Please check the availability and send the bill. Thank you!`;
                   value={formData.name}
                   onChange={handleInputChange}
                   placeholder="Enter full name"
-                  className="w-full px-3 py-2 border border-gray-200 dark:border-slate-800 rounded-lg bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
+                  className="w-full px-3 py-2 glass-input rounded-lg text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
                 />
               </div>
 
@@ -143,7 +143,7 @@ Please check the availability and send the bill. Thank you!`;
                   value={formData.mobile}
                   onChange={handleInputChange}
                   placeholder="10-digit mobile number"
-                  className="w-full px-3 py-2 border border-gray-200 dark:border-slate-800 rounded-lg bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
+                  className="w-full px-3 py-2 glass-input rounded-lg text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
                 />
               </div>
             </div>
@@ -159,7 +159,7 @@ Please check the availability and send the bill. Thank you!`;
                   value={formData.email}
                   onChange={handleInputChange}
                   placeholder="yourname@gmail.com"
-                  className="w-full px-3 py-2 border border-gray-200 dark:border-slate-800 rounded-lg bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
+                  className="w-full px-3 py-2 glass-input rounded-lg text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
                 />
               </div>
 
@@ -171,7 +171,7 @@ Please check the availability and send the bill. Thank you!`;
                   name="deliveryTime"
                   value={formData.deliveryTime}
                   onChange={handleInputChange}
-                  className="w-full px-3 py-2 border border-gray-200 dark:border-slate-800 rounded-lg bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
+                  className="w-full px-3 py-2 glass-input rounded-lg text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
                 >
                   <option>Anytime (8 AM - 10 PM)</option>
                   <option>Morning (8 AM - 12 PM)</option>
@@ -193,7 +193,7 @@ Please check the availability and send the bill. Thank you!`;
                 value={formData.address}
                 onChange={handleInputChange}
                 placeholder="Village/Street, Landmark, Ward, Tekari, Bihar"
-                className="w-full px-3 py-2 border border-gray-200 dark:border-slate-800 rounded-lg bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
+                className="w-full px-3 py-2 glass-input rounded-lg text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
               />
             </div>
 
@@ -208,7 +208,7 @@ Please check the availability and send the bill. Thank you!`;
                 value={formData.medicines}
                 onChange={handleInputChange}
                 placeholder="List your required medicine names, syrup quantities, or tablet counts"
-                className="w-full px-3 py-2 border border-gray-200 dark:border-slate-800 rounded-lg bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
+                className="w-full px-3 py-2 glass-input rounded-lg text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
               />
             </div>
 
@@ -266,7 +266,7 @@ Please check the availability and send the bill. Thank you!`;
                 value={formData.message}
                 onChange={handleInputChange}
                 placeholder="Any special remarks for our delivery team or pharmacist..."
-                className="w-full px-3 py-2 border border-gray-200 dark:border-slate-800 rounded-lg bg-gray-50 dark:bg-slate-950 text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
+                className="w-full px-3 py-2 glass-input rounded-lg text-gray-900 dark:text-white text-sm focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
               />
             </div>
 
