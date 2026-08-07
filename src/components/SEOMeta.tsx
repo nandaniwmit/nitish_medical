@@ -75,7 +75,10 @@ export default function SEOMeta({ currentView }: SEOMetaProps) {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    const fullUrl = window.location.origin + (currentView === 'home' ? '' : `/#${currentView}`);
+    const baseUrl = window.location.origin.includes('vercel.app') || window.location.origin.includes('localhost') || window.location.origin.includes('run.app')
+      ? 'https://nitish-medical.vercel.app'
+      : window.location.origin;
+    const fullUrl = baseUrl + (currentView === 'home' ? '' : `/#${currentView}`);
     canonical.setAttribute('href', fullUrl);
 
     // Open Graph (Facebook / LinkedIn)
