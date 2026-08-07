@@ -138,7 +138,7 @@ export default function Footer({ setCurrentView, onOpenWhatsAppOrder }: FooterPr
         {/* Footer Bottom Meta / Disclaimers */}
         <div className="mt-12 pt-8 border-t border-slate-800 text-xs text-slate-500 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-center md:text-left">
-            &copy; {new Date().getFullYear()} <strong>{BUSINESS_INFO.name}</strong>. All rights reserved. Developed by <a href="https://main.webmakerit.com" target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:underline">WMIT</a>.
+            &copy; {new Date().getFullYear()} <strong>{BUSINESS_INFO.name}</strong>. All rights reserved. <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
           </p>
           
           <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-slate-400">
